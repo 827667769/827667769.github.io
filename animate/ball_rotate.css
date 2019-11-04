@@ -1,0 +1,318 @@
+@keyframes animtran {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
+@keyframes animtrans {
+	from {
+		transform: rotateZ(360deg);
+	}
+	to {
+		transform: rotateZ(0deg);
+	}
+}
+
+@-webkit-keyframes animtran {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes animtrans {
+	from {
+		transform: rotateZ(360deg);
+	}
+	to {
+		transform: rotateZ(0deg);
+	}
+}
+#advert {
+	max-width: 700px;
+	max-height: 700px;
+	width: 90vw;
+	height: 90vw;
+	min-width: auto;
+	min-height: auto;
+	line-height: 16px;
+}
+
+#advert .bg1 {
+	max-width: 600px;
+	max-height: 600px;
+	width: 85%;
+	height: 85%;
+}
+
+#advert .bg1 div {
+	width: 100%;
+	height: 100%;
+	border: #5150ec 1px solid;
+	animation: animtran 16s linear infinite;
+	-webkit-animation: animtran 16s linear infinite;
+}
+
+#advert .bg1 .icon01 {
+	bottom: 15%;
+	left: 10%;
+	transform: translate(-50%, 0);
+}
+
+#advert .bg1 .icon02 {
+	bottom: 55%;
+	left: 0;
+	transform: translateX(-25%);
+}
+
+#advert .bg1 .icon03 {
+	top: 0;
+	left: 18%;
+	transform: translate(12.5%, -25%);
+}
+
+#advert .bg1 .icon04 {
+	top: 0;
+	right: 18%;
+	transform: translate(-12.5%, -25%);
+}
+
+#advert .bg1 .icon05 {
+	bottom: 55%;
+	right: 0;
+	transform: translateX(25%);
+}
+
+#advert .bg1 .icon06 {
+	bottom: 15%;
+	right: 10%;
+	transform: translate(50%, 0);
+}
+
+#advert .bg1 .icon07 {
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+#advert .bg2 {
+	max-width: 375px;
+	max-height: 375px;
+	width: 45%;
+	height: 45%;
+}
+
+#advert .bg2 div {
+	width: 100%;
+	height: 100%;
+	border: #5150ec 1px solid;
+	animation: animtrans 12s linear infinite;
+	-webkit-animation: animtrans 12s linear infinite;
+}
+#advert .bg1 span,
+#advert .bg2 span {
+	display: flex;
+	align-items: center;
+	background-color: #01032a;
+	overflow: hidden;
+	border-radius: 50%;
+	position: absolute;
+	border: 1px solid #5150ec;
+	text-align: center;
+	padding: 2.5%;
+	box-sizing: border-box;
+}
+
+#advert .bg1 span {
+	max-width: 110px;
+	max-height: 110px;
+	width: 21%;
+	height: 21%;
+}
+
+#advert .bg2 span {
+	max-width: 80px;
+	max-height: 80px;
+	width: 40%;
+	height: 40%;
+	font-size: 87.5%;
+}
+
+#advert .bg2 .icon08 {
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#advert .bg2 .icon09 {
+	left: 0;
+	bottom: 25%;
+	transform: translate(-25%, 50%);
+}
+
+#advert .bg2 .icon10 {
+	right: 0;
+	bottom: 25%;
+	transform: translate(25%, 50%);
+}
+
+#advert .content {
+	max-width: 180px;
+	max-height: 180px;
+	width: 22.5%;
+	height: 22.5%;
+	cursor: pointer;
+	overflow: hidden;
+}
+#advert .content img {
+	float: left;
+}
+@keyframes ani-one {
+	from {
+		left: 650px;
+	}
+	to {
+		left: 16px
+	}
+}
+
+@keyframes ani-two {
+	from {
+		left: 650px;
+	}
+	to {
+		left: 70px
+	}
+}
+
+@keyframes ani-three {
+	from {
+		top: 0;
+		left: 0;
+	}
+	to {
+		top: 8px;
+		left: 8px;
+	}
+}
+
+@keyframes ani-four {
+	0% {
+		width: 130px;
+		height: 50px;
+		left: 85px;
+		top: 125px;
+		box-shadow: #f6f6f6 8px 8px 8px 4px;
+		border: #5150ec 0px solid;
+		margin-left: 0;
+	}
+	100% {
+		width: 259px;
+		height: 333px;
+		left: 50%;
+		top: 0px;
+		box-shadow: #FFFFFF 0 0 0 0;
+		border: #5150ec 1px solid;
+		margin-left: -130px;
+	}
+}
+
+@keyframes ani-five {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes ani-six {
+	from {
+		left: 650px;
+	}
+	to {
+		left: 0;
+	}
+}
+
+@-webkit-keyframes ani-one {
+	from {
+		left: 650px;
+	}
+	to {
+		left: 16px
+	}
+}
+
+@-webkit-keyframes ani-two {
+	from {
+		left: 650px;
+	}
+	to {
+		left: 70px
+	}
+}
+
+@-webkit-keyframes ani-three {
+	from {
+		top: 0;
+		left: 0;
+	}
+	to {
+		top: 8px;
+		left: 8px;
+	}
+}
+
+@-webkit-keyframes ani-four {
+	0% {
+		width: 130px;
+		height: 50px;
+		left: 85px;
+		top: 125px;
+		box-shadow: #f6f6f6 8px 8px 8px 4px;
+		border: #5150ec 0px solid;
+		margin-left: 0;
+	}
+	100% {
+		width: 259px;
+		height: 333px;
+		left: 50%;
+		top: 0px;
+		box-shadow: #FFFFFF 0 0 0 0;
+		border: #5150ec 1px solid;
+		margin-left: -130px;
+	}
+}
+
+@-webkit-keyframes ani-five {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes ani-six {
+	from {
+		left: 650px;
+	}
+	to {
+		left: 0;
+	}
+}
+
+@media (min-width: 576px) {
+	#advert {
+		min-width: 460px;
+		min-height: 460px;
+		width: 50vw;
+		height: 50vw;
+	}
+}
